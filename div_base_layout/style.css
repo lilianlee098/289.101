@@ -1,19 +1,21 @@
-div{
-    outline: 1px solid red;
-}
+
 body{
     background-color:#441e13;
+    color:white;
 }
-.logoarea{
+
+div{
+    outline: 1px solid yellow;
+}
+
+.logocontainer{
     max-width:920px;
     margin-left:auto;
     margin-right:auto;
     margin-top:30px;
+    overflow: hidden; /* make the div grow to accomodate float child elements*/
 }
-.menu{
-    width:100%;
-    float:left;
-}
+
 .logo{
     width:205px;
     float:left;
@@ -21,6 +23,7 @@ body{
     font-size:2.5rem;
     font-weight:bold;
 }
+
 .slogan{
     width:380px;
     float:left;
@@ -29,3 +32,75 @@ body{
     font-size: 0.9rem;
     margin-top:18px;
 }
+
+.navi{
+    background-color:#39180f;
+    height: 62px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 920px;
+}
+
+.navi ol{
+    padding: 18px 10px;
+}
+
+.navi li{
+    border-right: 1px solid #D4B364;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+}
+
+.navi li:last-child{
+    border-right: none;
+}
+
+.about{
+    background-color: #87a984;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    max-width: 920px;     
+}
+
+.about p{
+    font-family: sans-serif;
+}
+
+.middleSection{
+    height:615px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 920px;
+}
+
+.sideMenu{
+    background-color:96afac;
+    width:200px;
+    height:615px;
+    float:left;
+}
+
+.sideMenu ol{
+    padding:0px 30px;
+}
+
+.sideMenu li{
+    font-family:sans-serif;
+    border-bottom: 1px solid #ffffff;
+    display:block;
+    padding:10px 1px
+}
+
+.howWeWork{
+    background-color: #dbd8c5;
+    width: 720px;
+    height:615px;
+    float:left;
+}
+
