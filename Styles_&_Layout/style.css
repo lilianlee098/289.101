@@ -1,0 +1,30 @@
+/*this is my css*/
+
+.blue{
+    color:blue;
+}
+
+/*box model*/
+
+.boxparent{
+    border:1px solid black;
+    float:left;
+    width:450px;
+    padding:10px;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color:#ff0000;
+    float:left;
+}
+
+.box2{
+    width: 200px;
+    height:200px;
+    background-color:#0000ff;
+    float:left;
+
+
+}
