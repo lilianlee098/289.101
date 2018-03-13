@@ -66,9 +66,16 @@ div{
     margin-top: 7px;
     max-width: 920px;     
 }
-
+.about h1{
+    margin-left: 240px;
+    margin-right: 550px;
+    font-size:40
+}
 .about p{
     font-family: sans-serif;
+    margin-left: 240px;
+    margin-right: 230px;
+    color: #edf1da;
 }
 
 .middleSection{
@@ -102,5 +109,18 @@ div{
     width: 720px;
     height:615px;
     float:left;
+    color:#47443b;
+    font-family: sans-serif;
+}
+
+.howWeWork h2 {
+    color:#596c7d;
+    padding: 1px 50px;
+    font-size:30px;
+}
+
+.howWeWork p{ 
+    padding:5px 50px;
+    font-size: 15px;
 }
 
