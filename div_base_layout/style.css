@@ -64,13 +64,24 @@ div{
     margin-left: auto;
     margin-right: auto;
     margin-top: 7px;
-    max-width: 920px;     
+    max-width: 920px; 
+    
+}
+.about img{
+    height: 170px;
+    width: 140px;
+    float:left;
+    margin-left: 50px;
+    margin-top: 10px;
+
 }
 .about h1{
     margin-left: 240px;
     margin-right: 550px;
-    font-size:40
+    font-size:40px;
+    padding-top: 40px;
 }
+
 .about p{
     font-family: sans-serif;
     margin-left: 240px;
