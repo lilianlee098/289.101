@@ -12,33 +12,13 @@ div{
     background-color: #0000ff;
     height: 200px;
     width: 920px;
-    
-}
-.content{
-    background-color:#ff0000;
-    height:400px;
-    
 }
 
-.contentbar1{
+.content{
     background-color: red;
     float:left;
     width:306px;
     height:400px
-}
-
-.contentbar2{
-    background-color: red;
-    float:left;
-    width:306px;
-    height: 400px;
-}
-
-.contentbar3{
-    background-color: red;
-    float:left;
-    width:308px;
-    height: 400px;
 }
 
 .bottombar{
