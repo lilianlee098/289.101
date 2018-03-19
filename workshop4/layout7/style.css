@@ -1,0 +1,157 @@
+div{
+    outline: 1px solid black;
+}
+
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+.header{
+    background-color: #0000ff;
+    width: 920px;
+    height: 50px;
+}
+.leftbar{
+    background-color: yellow;
+    width:262.6px;
+    height: 25px;
+    margin-top:12.5px;
+    margin-left:33px;
+    float:left;
+}
+
+.rightbar{
+    background-color: yellow;
+    width:558.2px;
+    height: 25px;
+    margin-left: 33px;
+    margin-top: 12.5px;
+    float:left;
+}
+
+/*greenheader*/
+.greenheader{
+    background-color:#00ff00;
+    width:920px;
+    height: 500px;
+}
+
+/*rednavi*/
+.rednavi{
+    background-color: #ff0000;
+    width: 920px;
+    height: 400px;
+}
+
+.navibar{
+    background-color: yellow;
+    width: 854px;
+    height: 100px;
+    margin-left: 33px;
+    margin-top:15px ;
+    float:left;
+}
+
+.naviboxes{
+    background-color: yellow;
+    width:262.6px;
+    height:250px;
+    float: left;
+    margin-left: 33px;
+    margin-top: 15px; 
+}
+
+/*bluecontent*/
+.bluecontent{
+    background-color: #0000ff;
+    width: 920px;
+    height: 800px; 
+}
+
+.bluebar{
+    background-color: yellow;
+    width: 854px;
+    height: 50px;
+    float:left;
+    margin-left: 33px;
+    margin-top: 40px;
+}
+
+.bluebox{
+    background-color:yellow;
+    float:left;
+    height: 188.7px;
+    width: 188.7px;
+    margin-top:35px;
+    margin-left: 33px;
+}
+
+/*greencontent*/
+.greencontent{
+    background-color: #00ff00;
+    width: 920px;
+    height: 500px;
+}
+
+.greenbar{
+    background-color: yellow;
+    width: 854px;
+    height: 120px;
+    margin-left: 33px;
+    margin-top: 25px;
+    float: left;
+}
+
+.greencolumns{
+    background-color: yellow;
+    width: 262.6px;
+    height:300px;
+    float: left;
+    margin-left:33px;
+    margin-top: 25px;
+}
+
+/*redcontent*/
+.redcontent{
+    background-color: #ff0000;
+    height: 500px;
+    width: 920px;
+}
+
+.redbar{
+    background-color:yellow;
+    float:left;
+    height:45px;
+    width:854px;
+    margin-top:17px;
+    margin-left:33px;
+}
+
+.redbigbox{
+    background-color:yellow;
+    float:left;
+    height:400px;
+    width:558.2px;
+    margin-top:17px;
+    margin-left:33px;
+}
+
+.redsmallbox{
+    background-color:yellow;
+    float:left;
+    height:200px;
+    width:262.6px;
+    margin-top:17px;
+    margin-left:33px;
+}
+
+/*bluebottom*/
+.bluebottom{
+    background-color: #0000ff;
+    height: 50px;
+    width: 920px; 
+}
+
