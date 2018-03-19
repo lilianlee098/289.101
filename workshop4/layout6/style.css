@@ -1,5 +1,5 @@
 div{
-    outline: 1px solid lime;
+    outline: 1px solid black;
 }
 
 .container{
@@ -35,9 +35,19 @@ div{
     float: left;
 }
 .boxes{
-    
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 65px;  
 }
 
 .bars{
-    
+    background-color:yellow;
+    height:150px ;
+    width:365px;
+    margin-left:65px ;
+    margin-top:70px;
+    float: left;
 }
