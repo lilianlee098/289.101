@@ -1,0 +1,33 @@
+body{
+  
+}
+div{
+    outline: 1px solid lime;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 920px;
+}
+
+.header{
+    background-color:#0000ff;
+    width:920px;
+    height: 200px;
+
+}
+
+.sidebar{
+    background-color:#ff0000;
+    width: 220px;
+    height:500px;
+    float:left;
+}
+
+.content{
+    background-color:#00ff00;
+    height:500px;
+    width:700px;
+    float:left;
+}
