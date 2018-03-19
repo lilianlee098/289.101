@@ -1,0 +1,49 @@
+div{
+    outline: 1px solid lime;
+    
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 920px;
+    
+}
+.header{
+    background-color: #0000ff;
+    height: 200px;
+    width: 920px;
+    
+}
+.content{
+    background-color:#ff0000;
+    height:400px;
+    
+}
+
+.contentbar1{
+    background-color: red;
+    float:left;
+    width:306px;
+    height:400px
+}
+
+.contentbar2{
+    background-color: red;
+    float:left;
+    width:306px;
+    height: 400px;
+}
+
+.contentbar3{
+    background-color: red;
+    float:left;
+    width:308px;
+    height: 400px;
+}
+
+.bottombar{
+    background-color: #00ff00;
+    height: 200px;
+    width: 920px;
+    float: left;
+}
