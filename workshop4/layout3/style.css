@@ -1,0 +1,38 @@
+div{
+    outline: 1px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header{
+    background-color: #0000ff;
+    height: 200px;
+    width: 920px;
+}
+
+.content{
+    background-color: #ff0000;
+    height: 500px;
+    width: 920px;
+}
+
+.yellowboxes{
+    background-color: yellow;
+    height:400px;
+    width:400px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.bottombar{
+    background-color: #00ff00;
+    height: 200px;
+    width: 920px;
+}
