@@ -6,7 +6,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-/*div{*/
+div{
     outline: 1px solid lime;
 }
 
@@ -146,6 +146,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 780px;
+    height: 600px;
 }
 
 .AUwords{
@@ -190,17 +191,29 @@ body{
     margin-top: 10px;
 }
 
-/*
-.social{
-    float: left;
-    width: 250px;
-    height: 100px;
-}
-
-.social img{
-    float: left;
+.blurb img{
     width: 154px;
     height: 34px;
+    margin-top: 10px;
 }
-*/
+
+.quote{
+    background-color: #f06c64;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    color: #f0d8d9;
+}
+
+.quotep{
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.quotep p {
+   font-weight:300;
+    font-size: 0.95rem;
+}
 
