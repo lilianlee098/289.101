@@ -6,9 +6,13 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
+/*
 div{
     outline: 1px solid lime;
 }
+*/
+
 
 .header{
     background-color: #2D2F3B;
@@ -48,7 +52,6 @@ div{
 .links a:hover{
     color: #f06c64;
 }
-
 
 .banner{
     background-color: #f06c64;
@@ -105,16 +108,12 @@ div{
     margin-right: 10px;
 }
 
-/*.threeservices img:nth-last-of-type(){
-    margin-left: 0
-} */
-
 .portfolio{
     background-color: #2d303a;
     color: #666d89;
     margin-left: auto;
     margin-right: auto;
-    height:1150px;
+    height: 770px;
 }
 
 .porthead{
@@ -129,14 +128,38 @@ div{
     font-size: 0.95rem;
 }
 
-.porthead img{
-    width: 220px;
-    height: 190px;
-    margin-left: 56.9px;
-    margin-top:28px; 
+.dropnavi{
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    font-weight: 400;
 }
 
-.porthead img:nth-last-of-type(3n){
+.dropnavi a{
+    color: #666d89;
+    text-decoration: none;
+    margin-left: 5px;  
+    border: 1px solid;
+    border-radius: 5px;
+    padding:4px;
+}
+
+.dropnavi a:first-of-type{
+    margin-left: 0px;
+}
+
+.dropnavi a:hover{
+    color: #ffffff;
+}
+
+.porthead img{
+    width: 180px;
+    height: 155px;
+    margin-left:16.9px;
+    margin-top:20px; 
+}
+
+.porthead img:nth-last-of-type(4n){
     margin-left: 0px;
 }
 
@@ -215,5 +238,90 @@ div{
 .quotep p {
    font-weight:300;
     font-size: 0.95rem;
+}
+
+.quotesection{
+    max-width: 780px;
+    height:360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+}
+.boxinfo{
+    width: 515.9px;
+    height:360px;
+    float:left;
+    color: #f48c8f;
+}
+
+.strip{
+    width: 515.9px;
+    background-color: #d6564f;
+    height:40px;
+    margin-bottom:20px;
+    border-radius: 7px;
+}
+
+.strip:nth-of-type(4){
+    height: 180px;
+    margin-bottom: 0px;
+}
+
+.strip p{
+    margin-top: 0px;
+    padding-top: 13px;
+    padding-left: 15px;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.contactinfo{
+    width:250px;
+    float:right;
+}
+
+.contactinfo h4{
+    margin-top:0px;
+}
+
+.contactinfo img{
+    float:left;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+.contactinfo p{
+    margin-bottom:10px;
+    font-weight:300;
+    font-size: 0.6rem;
+}
+
+.contactinfo p:nth-of-type(2){
+    margin-top: 20px;
+}
+
+.bottombar{
+    background-color: #2D2F3B;
+    color: #666d89;
+    height: 90px;
+}
+
+.things{
+    max-width: 780px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.things p{
+    float:left;
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+
+.things img{
+    float:right;
+    height:33px ;
+    width:160px; 
 }
 
