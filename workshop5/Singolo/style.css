@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
 
+/*
+@media screen and (max-width: 480px) {
+body {
+background-color: green;
+}
+.logo {
+margin-top: 20px;
+text-align: center;
+width: 100%;
+}
+.links {
+margin-top: 10px;
+text-align: center;
+width: 100%;
+}
+}
+*/
+
+
 body{
     background-color: #f2f2f2;
     margin: 0;
@@ -257,6 +276,7 @@ div{
     margin-top: 40px;
     
 }
+/*
 .boxinfo{
     width: 515.9px;
     height:360px;
@@ -284,6 +304,28 @@ div{
     font-size: 0.7rem;
     font-weight: 300;
 }
+*/
+
+.form{
+    width: 515.9px;   
+}
+
+.input, textarea{
+    font: 1em 
+}
+
+.input{
+    width: 515.9px;
+    
+}
+
+.textarea{
+   height: 5em;
+    width: 515.9px;
+    
+}
+
+
 .contactinfo{
     width:250px;
     float:right;
