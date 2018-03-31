@@ -7,6 +7,45 @@
         
         <link rel="stylesheet" href="style.css">
         
+
+        <style>
+        
+            form{
+                padding-top: 0px;
+                width: 515.9px; 
+                float:left;
+                color: #f48c8f;
+            }
+            
+            input,text area{
+                font: 1em;
+            }
+            
+            input{
+                width: 505px;
+                margin-bottom: 20px;
+                background-color: #d6564f;
+                height: 40px;
+                border-radius: 7px;
+                border-style: none;
+                color: #F48c8f;
+                padding-left: 10px;
+            }
+            
+            textarea{
+                height: 180px;
+                width: 505px;
+                background-color: #d6564f;
+                color: #F48c8F;
+                border-radius: 7px;
+                border-style: none;
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+            
+        </style>
+
+        
     </head>
     
     <body>
@@ -134,7 +173,8 @@
             </div>
             
             <div class="quotesection">
-<!--
+
+<!-- Before neded to use form HTML
                 <div class="boxinfo">
                     <div class="strip">
                         <p>Name (Required)</p>
@@ -151,10 +191,13 @@
                     
                 </div>
 -->
-                
+
+                <!-- Form HTML -->
                  <form action="/my-handling-form-page" method="post">
                     <div>
-                        <input type="text" id="name name="user_name>
+<!-- Dont know how to input the name inside the inputs-->
+                        <input type="text" id="name" name="user_name">
+                        
                     </div>
                     <div>
                         <input type="email" id="mail" name="user_mail">

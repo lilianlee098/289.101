@@ -276,7 +276,8 @@ div{
     margin-top: 40px;
     
 }
-/*
+
+/* before needed to use form HTML
 .boxinfo{
     width: 515.9px;
     height:360px;
@@ -306,7 +307,10 @@ div{
 }
 */
 
-.form{
+
+
+/* Not working? Can't call through the styling needed to use the styling in the html itself. 
+form{
     width: 515.9px;   
 }
 
@@ -324,6 +328,7 @@ div{
     width: 515.9px;
     
 }
+*/
 
 
 .contactinfo{
