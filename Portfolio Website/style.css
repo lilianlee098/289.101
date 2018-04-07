@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
+
+body{
+    margin: 0;
+    background-color: #f2f2f2;  
+}
+
+div{
+    outline: 1px solid lime;
+}
+
+.header{
+    background-color: #2D2F3B;
+    height:90px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.navigation{
+    max-width: 750px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-family: 'Rock Salt', cursive;
+    float: left;
+    padding-top:10px;
+    font-size: 2rem;
+}
+
+.links {
+    font-family: 'Lato', sans-serif;
+    float: left;
+    font-size: 0.75rem;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 40px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links a:hover{
+    color: #dfdaf0;
+}
+
+.banner{
+    background-color: ;
+    height: 500px;
+}
+
+.bannerbox{
+    max-width: 750px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blurb{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    width: 300px;
+    padding-left: 80px;
+    padding-top: 200px;
+    float:left;
+}
+
+.description{
+    font-family: 'Rock Salt', cursive;
+    width: 300px;
+    font-size: 1.2em;
+    margin-left: 80px;
+    float: left;
+}
+
+.bannerbox img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    margin-left: 70px;
+}
+
+.about{
+    background: #2D2F3B;
+    height: 500px;
+    color: #FFFFFF;
+}
+
+.words{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abouthead{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    padding-top: 50px;
+    margin-left: 70px;
+    
+}
