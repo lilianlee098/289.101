@@ -7,9 +7,11 @@ body{
     background-color: #f2f2f2;  
 }
 
+/*
 div{
     outline: 1px solid lime;
 }
+*/
 
 .header{
     background-color: #2D2F3B;
@@ -91,7 +93,7 @@ div{
 
 .about{
     background: #2D2F3B;
-    height: 500px;
+    height: 300px;
     color: #FFFFFF;
 }
 
@@ -105,6 +107,13 @@ div{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
     padding-top: 50px;
-    margin-left: 70px;
-    
+    margin-left: 80px; 
+}
+
+.words p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 0.7em;
+    margin-right: 80px;
+    margin-left: 80px;
 }
