@@ -7,6 +7,7 @@ body{
     background-color: #f2f2f2;  
 }
 
+
 div{
     outline: 1px solid lime;
 }
@@ -20,17 +21,27 @@ div{
 }
 
 .navigation{
-    max-width: 750px;
+    max-width: 900px;
     height: 90px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .logo {
+/*
+    font-family: 'Lato', sans-serif;
+    float: left;
+    padding-top:25px;
+    font-size: 2rem;
+    font-weight: 700;
+*/
+   
     font-family: 'Rock Salt', cursive;
     float: left;
     padding-top:10px;
     font-size: 2rem;
+    font-weight: 700;
+    
 }
 
 .links {
@@ -50,7 +61,7 @@ div{
 }
 
 .links a:hover{
-    color: #dfdaf0;
+    color: #666d89;
 }
 
 /* Banner Section */
@@ -61,7 +72,7 @@ div{
 }
 
 .bannerbox{
-    max-width: 750px;
+    max-width: 900px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -69,6 +80,9 @@ div{
 
 .bannerword{
     float: left;
+    background-color:red;
+    height: 500px;
+    width: 480px;
 }
 
 .blurb{
@@ -101,7 +115,8 @@ div{
 }
 
 .words{
-    max-width: 750px;
+    max-width: 900px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -110,6 +125,7 @@ div{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
     padding-top: 40px;
+    margin-top: 0px;
     margin-left: 80px; 
 }
 
@@ -128,21 +144,23 @@ div{
 }
 
 .SSSection{
-    max-width: 750px;
+    max-width: 900px;
     height: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.skills{
-    
-}
-
-.skills h1{
+.SSSection h1{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
     padding-top: 40px;
     margin-left: 80px; 
+    margin-top: 0px;
+    margin-bottom: ;
+}
+
+.skills{
+    
 }
 
 .services{
@@ -156,8 +174,8 @@ div{
     color: white;
 }
 
-.port{
-    max-width: 750px;
+.portbox {
+    max-width: 900px;
     height: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -167,7 +185,34 @@ div{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
     padding-top: 40px;
-    margin-left: 80px; 
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.portnavi{
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-left: 80px;
+}
+
+.portnavi a{
+    color: #666d89;
+    text-decoration: none;
+    margin-left: 5px;  
+    border: 1px solid;
+    border-radius: 5px;
+    padding:4px;
+}
+
+.portnavi a:first-of-type{
+    margin-left: 0px;
+}
+
+.portnavi a:hover{
+    color: #ffffff;
 }
 
 /* Contact Section */
@@ -177,7 +222,7 @@ div{
 }
 
 .contactbox{
-    max-width: 750px;
+    max-width: 900px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -186,8 +231,41 @@ div{
 .contactbox h1{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
-    padding-top: 50px;
-    margin-left: 80px; 
+    padding-top: 40px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+/* Form */
+form{
+    padding-top: 0px;
+    width: 400px; 
+    float:left;
+    color: #2D2F3B;
+    margin-left: 80px;
+}
+            
+input,text area{
+    font: 1em;
+}
+            
+input{
+    width: 400px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    height: 30px;
+    border-style: solid;
+    color: #2D2F3B;
+    padding-left: 10px;
+}
+            
+textarea{  
+    height: 150px;
+    width: 400px;
+    background-color: #f2f2f2;
+    color: #2D2F3B;
+    border-style: solid;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 /* Bottom Banner Section*/
@@ -197,6 +275,6 @@ div{
 }
 
 .bottombox{
-    max-width: 750px;
+    max-width: 900px;
     height: 90px;
 }
