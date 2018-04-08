@@ -7,12 +7,11 @@ body{
     background-color: #f2f2f2;  
 }
 
-/*
 div{
     outline: 1px solid lime;
 }
-*/
 
+/* Header Section */
 .header{
     background-color: #2D2F3B;
     height:90px;
@@ -54,9 +53,11 @@ div{
     color: #dfdaf0;
 }
 
+/* Banner Section */
 .banner{
-    background-color: ;
+    background-color: #f2f2f2;
     height: 500px;
+    margin: 0;
 }
 
 .bannerbox{
@@ -66,35 +67,37 @@ div{
     margin-right: auto;
 }
 
+.bannerword{
+    float: left;
+}
+
 .blurb{
     font-family: 'Lato', sans-serif;
     font-size: 2em;
-    width: 300px;
-    padding-left: 80px;
+    width: 260px;
+    padding-left: 70px;
     padding-top: 200px;
-    float:left;
 }
 
 .description{
     font-family: 'Rock Salt', cursive;
-    width: 300px;
+    width: 260px;
     font-size: 1.2em;
-    margin-left: 80px;
-    float: left;
-}
-
-.bannerbox img{
-    width: 300px;
-    height: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px; 
     margin-left: 70px;
 }
 
+.bannerbox img{
+    width: 409.05px;
+    height: 500px;
+    float: right;
+}
+
+/* About Section */
 .about{
     background: #2D2F3B;
     height: 300px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .words{
@@ -103,10 +106,10 @@ div{
     margin-right: auto;
 }
 
-.abouthead{
+.words h1{
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
-    padding-top: 50px;
+    padding-top: 40px;
     margin-left: 80px; 
 }
 
@@ -116,4 +119,84 @@ div{
     font-size: 0.7em;
     margin-right: 80px;
     margin-left: 80px;
+}
+
+/* Skills & Services Section */
+.SSS{
+    background-color: #f2f2f2;
+    height: 400px;
+}
+
+.SSSection{
+    max-width: 750px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills{
+    
+}
+
+.skills h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    padding-top: 40px;
+    margin-left: 80px; 
+}
+
+.services{
+    
+}
+
+/* Portfolio Section */
+.portfolio{
+    background-color: #2D2F3B;
+    height: 900px;
+    color: white;
+}
+
+.port{
+    max-width: 750px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portbox h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    padding-top: 40px;
+    margin-left: 80px; 
+}
+
+/* Contact Section */
+.contact{
+    background-color: #f2f2f2;
+    height: 500px;
+}
+
+.contactbox{
+    max-width: 750px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactbox h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    padding-top: 50px;
+    margin-left: 80px; 
+}
+
+/* Bottom Banner Section*/
+.bottom{
+    background-color: #2D2F3B;
+    height: 90px;
+}
+
+.bottombox{
+    max-width: 750px;
+    height: 90px;
 }
