@@ -8,9 +8,11 @@ body{
 
 
 
+/*
 div{
     outline: 1px solid lime;
 }
+*/
 
 
 /* Header Section */
@@ -291,13 +293,19 @@ textarea{
 
 .info h4{
     margin-top: 0px;
-    border-bottom: solid ;
     margin-bottom: 0px;
+    border-top: solid;
 }
 
 .info p{
     font-weight: 100;
     font-size: 0.7rem;
+    margin-top: 4px;
+    margin-bottom: 50px
+}
+
+.info h4:first-of-type{
+    border-top: none;
 }
 
 /* Bottom Banner Section*/
