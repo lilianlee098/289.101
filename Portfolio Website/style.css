@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
 
 body{
     margin: 0;
-    background-color: #f2f2f2;  
+    background-color: #f2f2f2; 
+    font-family: 'Lato', sans-serif;
 }
 
 
-/*
+
 div{
     outline: 1px solid lime;
 }
-*/
+
 
 /* Header Section */
 .header{
@@ -166,12 +165,12 @@ div{
 }
 
 .SSSection h1{
-    font-family: 'Rock Salt', cursive;
-    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
     padding-top: 40px;
-    margin-left: 80px; 
     margin-top: 0px;
-    margin-bottom: ;
+    margin-left: 80px; 
 }
 
 .skills{
@@ -197,11 +196,12 @@ div{
 }
 
 .portbox h1{
-    font-family: 'Rock Salt', cursive;
-    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
     padding-top: 40px;
-    margin-left: 80px;
     margin-top: 0px;
+    margin-left: 80px; 
 }
 
 .portnavi{
@@ -244,11 +244,12 @@ div{
 }
 
 .contactbox h1{
-    font-family: 'Rock Salt', cursive;
-    font-size: 2em;
+   font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
     padding-top: 40px;
-    margin-left: 80px;
     margin-top: 0px;
+    margin-left: 80px; 
 }
 /* Form */
 form{
@@ -281,6 +282,22 @@ textarea{
     border-style: solid;
     padding-left: 10px;
     padding-top: 10px;
+}
+
+.info{
+    float: left;
+    margin-left: 100px;
+}
+
+.info h4{
+    margin-top: 0px;
+    border-bottom: solid ;
+    margin-bottom: 0px;
+}
+
+.info p{
+    font-weight: 100;
+    font-size: 0.7rem;
 }
 
 /* Bottom Banner Section*/
