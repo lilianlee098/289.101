@@ -310,15 +310,21 @@ button{
     border-top: solid;
 }
 
+.info h5{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
 .info p{
     font-weight: 100;
     font-size: 0.7rem;
     margin-top: 4px;
-    margin-bottom: 50px
+    margin-bottom: 30px
 }
 
-.info h4:first-of-type{
-    border-top: none;
+.info img{
+    width:25px;
+    height: 25px;
 }
 
 /* Bottom Banner Section*/
