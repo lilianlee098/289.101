@@ -322,6 +322,18 @@ button{
     height: 25px;
 }
 
+.info a{
+    float: right;
+    color: #666d89;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.info a:hover{
+    color:#ffffff;
+}
+
+
 /* Bottom Banner Section*/
 .bottom{
     background-color: #2D2F3B;
