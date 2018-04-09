@@ -106,6 +106,17 @@ div{
 
 /*Graphic Design Section*/
 
+.GDPhoto{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    height: 900px;
+    text-align: center;
+}
+
+.GDPhoto img{
+    
+}
 
 /*Photography Section*/
 .LENSPhoto{
@@ -124,6 +135,17 @@ div{
 }
 
 /*Artwork Section*/
+.ARTPhoto{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    height: 900px;
+    text-align: center;
+}
+
+.ARTPhoto img{
+    
+}
 
 /*Bottom Banner Section*/
 .bottom{
@@ -134,4 +156,6 @@ div{
 .bottombox{
     max-width: 900px;
     height: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
