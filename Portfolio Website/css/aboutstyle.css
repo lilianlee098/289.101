@@ -118,7 +118,7 @@ div{
 }
 */
 
-/*Bottom Banner Section*/
+/* Bottom Banner Section*/
 .bottom{
     background-color: #2D2F3B;
     height: 90px;
@@ -129,4 +129,12 @@ div{
     height: 90px;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    text-align: center
+}
+
+.bbwords{
+    padding-top: 40px;
+    font-weight: 200;
+    font-size: 0.7em;
 }
