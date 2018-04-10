@@ -178,6 +178,13 @@ div{
 .services{
     height: 335px;
     background-color: #2D2f3B;
+    width:auto;
+    float:left;
+}
+
+.services img{
+    height: 335px;
+    background-color: #2D2f3B;
     width:450px;
     float:left;
 }
