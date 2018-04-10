@@ -6,11 +6,9 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-/*
 div{
     outline: 1px solid lime;
 }
-*/
 
 /*
 h1{
@@ -112,6 +110,10 @@ h1{
     color: #ffffff;
 }
 
+.display{
+    max-width: 900px;
+    height: 460px;
+}
 .two1{
     width: 290px;
     float:left;

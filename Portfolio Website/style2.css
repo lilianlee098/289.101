@@ -185,13 +185,13 @@ div{
 /* Portfolio Section */
 .portfolio{
     background-color: #f2f2f2;
-    height: 850px;
+    height: 650px;
     color: #2f2d3b;
 }
 
 .portbox {
     max-width: 900px;
-    height: 850px;
+    height: 650px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -209,13 +209,41 @@ div{
     margin-left: auto;
     margin-right: auto;
     max-width: 900px;
+    height:460px ;
 }
 
-.portphoto img{
-    width:270px;
-    float: left;
+.two1{
+    width: 290px;
+    float:left;
+}
+.two1 img{
+    margin-top: 21px;
+    margin-bottom: 21px;
     margin-left: 20px;
-    margin-bottom: 50px;
+    width: 270px;  
+}
+
+.one{
+    width: 290px;
+    float: left;
+}
+
+.one img{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-left: 20px;
+    width: 270px;
+}
+
+.two12{
+    width: 290px;
+    float:left;
+}
+.two12 img{
+    margin-top: 21px;
+    margin-bottom: -2px;
+    margin-left: 20px;
+    width: 270px;  
 }
 
 .portmore{
