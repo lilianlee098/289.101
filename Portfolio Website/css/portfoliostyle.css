@@ -112,6 +112,41 @@ h1{
     color: #ffffff;
 }
 
+.two1{
+    width: 290px;
+    float:left;
+}
+.two1 img{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-left: 20px;
+    width: 270px;  
+}
+
+.one{
+    width: 290px;
+    float: left;
+}
+
+.one img{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-left: 20px;
+    width: 270px;
+}
+
+.two12{
+    width: 290px;
+    float:left;
+}
+.two12 img{
+    margin-top: 21px;
+    margin-bottom: -2px;
+    margin-left: 20px;
+    width: 270px;  
+}
+
+
 /*Graphic Design Section*/
 
 .GDPhoto{
