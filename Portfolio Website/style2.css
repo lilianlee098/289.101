@@ -6,7 +6,6 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-
 div{
     outline: 1px solid lime;
 }
@@ -28,22 +27,22 @@ div{
 
 .logo {
     font-family: 'Lato', sans-serif;
-    float: left;
     letter-spacing: 5px;
     padding-top:20px;
     font-size: 2.5rem;
     font-weight: 700;
-
+    float:left;
 }
 
 .links {
     font-family: 'Lato', sans-serif;
     float: left;
     font-size: 0.75rem;
-    margin-left: 64px;
-    margin-right: 64px;
-    margin-top: 40px;
+    margin-left: 66px;
+    margin-right: 66px;
+    margin-top: 40px; 
 }
+
 
 .links a{
     color: #666d89;
