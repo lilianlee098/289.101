@@ -153,49 +153,63 @@ div{
     text-align: center;
 }
 
+/*Arts Awards*/
+
+.aa{
+    max-width: 900px;
+    height: 240px;
+    float:left;
+}
 .aa img{
     height:180px;
-    margin-left: 20px;
+    margin-left:30px;
     margin-bottom: 50px;
 }
+
+/*Help Campaign*/
+.hc{
+    max-width: 900px;
+    height:750px;
+}
+
 .hc1{
-    width:290px;
-    margin-left: 20px;
+    width:271px;
+    margin-left: 30px;
     margin-bottom: 50px;
     float:left;
 }
 
 .connect img{
-    height: 180px;
+    height: 191px;
     margin-bottom: 50px;
-    margin-left: 0px;
+    float:right
 }
 
 .hc12 img{
     width: 270px;
-    margin-left: 20px;
     margin-bottom: 50px;
 }
 
 .hc2{
-    width:290px;
-    margin-left: 20px;
+    width:270px;
+    margin-left: 24px;
     margin-bottom: 50px;
     float: left;
 }
 
 .hc2 img{
     width:270px;
-    margin-left: 20px;
     margin-bottom: 50px;
 }
-    
+ 
+/*Type*/
 .type img{
     height:270px;
     margin-left: 20px;
     margin-bottom: 50px;
 }
 
+/*Brochure*/
 .brochure img{
     width: 270px;
     margin-left: 20px;
