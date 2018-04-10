@@ -5,10 +5,12 @@ body{
     background-color: #f2f2f2; 
     font-family: 'Lato', sans-serif;
 }
+/*
 
 div{
     outline: 1px solid lime;
 }
+*/
 
 /* Header Section */
 .header{
@@ -85,6 +87,7 @@ div{
     padding-bottom: 0px;
     margin-top: 0px; 
     margin-bottom: 10px;
+    text-align: center;
 }
 .aboutbox h4{
     font-family: 'Lato', sans-serif;
@@ -92,7 +95,8 @@ div{
     padding-top: 0px;
     margin-bottom: 5px;
     font-weight: 500;
-    margin-top: 0px; 
+    margin-top: 0px;
+    margin-left: 100px;
 }
 
 .aboutbox p{
@@ -100,6 +104,7 @@ div{
     font-size: 0.9em ;
     font-weight: 100;
     margin-top: 0px; 
+    margin-left: 100px;
 }
 
 /*Bottom Banner Section*/
