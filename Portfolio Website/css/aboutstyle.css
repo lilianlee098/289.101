@@ -6,9 +6,11 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+/*
 div{
     outline: 1px solid lime;
 }
+*/
 
 /* Header Section */
 .header{
@@ -56,7 +58,7 @@ div{
 
 /*About Section*/
 .about{
-    height:1050px;
+    height:1150px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f2f2f2;
@@ -64,7 +66,7 @@ div{
 
 .aboutbox1{
     max-width: 900px;
-    height: 1050px;
+    height: 1150px;
     margin-left: auto;
     margin-right: auto;
 }
