@@ -62,20 +62,20 @@ div{
 
 /*About Section*/
 .about{
-    height:1150px;
+    height:550px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f2f2f2;
 }
 
-.aboutbox1{
+.aboutbox{
     max-width: 900px;
-    height: 1150px;
+    height: 550px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.aboutbox1 h1{
+.aboutbox h1{
     font-family: 'Lato', sans-serif;
     font-size: 2.5em;
     font-weight: 700;
@@ -84,27 +84,22 @@ div{
     text-align: center;
 }
 
-.aboutbox1 h3{
+.aboutbox h3{
     font-family: 'Lato', sans-serif;
     font-size: ;
     font-weight: 700;
     padding-bottom: 0px;
-    margin-top: 0px; 
+    margin-top: 20px; 
     margin-bottom: 10px;
     text-align: center;
 }
 
-.aboutbox1 h4{
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9em;
-    padding-top: 0px;
-    margin-bottom: 5px;
-    font-weight: 500;
-    margin-top: 0px;
+.aboutbox h4{
     text-align: center;
+    font-size: 0.9em;
 }
 
-.aboutbox1 p{
+.aboutbox p{
     font-family: 'Lato', sans-serif;
     font-size: 0.9em ;
     font-weight: 100;
@@ -114,18 +109,90 @@ div{
     text-align: center;
 }
 
-/*
-.aboutbox1 img{
-    float:left;
-    height:100px;
-    margin-left: 150px;
+.aboutbox1{
+    height:450px;
 }
-*/
+
+.aboutsector{
+    height: 450px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutbox3{
+    width:450px;
+    float:left;
+    background-color: #2f2d3b;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.aboutbox3 h3{
+    font-family: 'Lato', sans-serif;
+    font-size: ;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.aboutbox3 h4{
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.aboutbox3 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em ;
+    font-weight: 100;
+    margin-top: 0px; 
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.aboutbox2{
+    width:450px;
+    float:left;
+    margin-top: 20px;
+}
+.aboutbox2 h3{
+    font-family: 'Lato', sans-serif;
+    font-size: ;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-top: 20px; 
+    margin-bottom: 10px;    
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.aboutbox2 h4{
+    font-size: 0.9em;
+    margin-top: 5px;    
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+}
+
+.aboutbox2 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em ;
+    font-weight: 100;
+    margin-top: 0px;     
+    margin-left:20px;
+    margin-right: 20px;
+}
 
 /* Bottom Banner Section*/
 .bottom{
     background-color: #2D2F3B;
     height: 90px;
+    margin-top: 450px;
 }
 
 .bottombox{
@@ -142,3 +209,4 @@ div{
     font-weight: 200;
     font-size: 0.7em;
 }
+
