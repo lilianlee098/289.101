@@ -175,6 +175,26 @@ div{
     float:left;
 }
 
+.computer{
+    float:left;
+    margin-right: 55px;
+    margin-top: 10px;
+}
+
+.skills img{
+    width:150px;
+    margin-left: 20px;
+    float:left;
+}
+
+.skills h3{
+    font-size: 0.8em;
+    margin-top: 0px;
+    width:150px;
+    text-align: center;
+    margin-left: 20px;
+}
+
 .services{
     height: 335px;
     background-color: #2D2f3B;
