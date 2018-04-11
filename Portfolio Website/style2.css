@@ -14,7 +14,8 @@ div{
 
 /* Header Section */
 
-/*OPTION 1*/
+/*
+OPTION 1
 .header{
     background-color: #f2f2f2;
     height:120px;
@@ -52,9 +53,10 @@ div{
     padding-left: 80px;
     padding-right: 80px;
 }
+*/
 
-/*
- OPTION 2
+
+/* OPTION 2*/
 .header{
     background-color: #f2f2f2;
     height:90px;
@@ -97,7 +99,6 @@ div{
     padding-left: 20px;
     padding-right: 20px;
 }
-*/
 
 
 .links a:hover{
@@ -197,12 +198,12 @@ div{
 /* Skills & Services Section */
 .SSS{
     background-color: #f2f2f2;
-    height: 450px;
+    height: 500px;
 }
 
 .SSSection{
     max-width: 900px;
-    height: 450px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
