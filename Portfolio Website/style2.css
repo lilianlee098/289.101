@@ -15,41 +15,47 @@ div{
 /* Header Section */
 .header{
     background-color: #f2f2f2;
-    height:120px;
+    height:90px;
     color: #2f2d3b;
     margin: 0;
 }
 
 .navigation{
     max-width: 900px;
-    height: 120px;
+    height: 90px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .logo {
     font-family: 'Lato', sans-serif;
+    float: left;
     letter-spacing: 5px;
     padding-top:20px;
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: center
+    margin-left: 78.5px;
 }
 
 .links {
     font-family: 'Lato', sans-serif;
-    text-align: center;
+    float: left;
     font-size: 0.75rem;
-    margin-top: 20px; 
+    margin-left: 78.5px;
+    margin-top: 40px;
 }
 
+.links:last-of-type{
+    margin-left: 55px;
+}
 
 .links a{
     color: #666d89;
     text-decoration: none;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
 
 .links a:hover{
     color: #ffffff;
