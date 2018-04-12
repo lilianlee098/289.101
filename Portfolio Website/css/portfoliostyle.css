@@ -5,12 +5,10 @@ body{
     background-color: #f2f2f2; 
     font-family: 'Lato', sans-serif;
 }
-/*
 
 div{
     outline: 1px solid lime;
 }
-*/
 
 /* Header Section */
 .header{
@@ -222,7 +220,6 @@ div{
 }
 
 /*Brochure*/
-
 .brochure img{
     width: 270px;
     margin-left: 20px;
