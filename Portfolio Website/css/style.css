@@ -14,48 +14,6 @@ div{
 
 /* Header Section */
 
-/*
-OPTION 1
-.header{
-    background-color: #f2f2f2;
-    height:120px;
-    color: #2f2d3b;
-    margin: 0;
-}
-
-.navigation{
-    max-width: 900px;
-    height: 120px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo {
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 5px;
-    padding-top:20px;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center
-}
-
-.links {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 0.75rem;
-    margin-top: 20px; 
-}
-
-
-.links a{
-    color: #666d89;
-    text-decoration: none;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-*/
-
-
 /* OPTION 2*/
 .header{
     background-color: #f2f2f2;
