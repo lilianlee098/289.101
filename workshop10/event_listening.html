@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html>
+
+    <head> 
+        <meta charest='utf-8'>
+        <title> dom scripting</title>
+    </head>
+    
+     <style>
+        
+        #red{
+            background-color:indianred;
+            }
+         #blue{
+             background-color: cornflowerblue;
+         } 
+         
+    </style>
+    
+    <body> 
+        
+        <div id="hello_btn">
+            say hello
+        </div>
+        
+        <script>
+            document.getElementById("hello_btn").addEventListener('click', function(){alert('hello');})
+            
+        </script>
+    
+    </body>
+    
+</html>

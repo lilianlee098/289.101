@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+
+
+    <head> 
+        <meta charest='utf-8'>
+        <title> dom scripting</title>
+    </head>
+    
+     <style>
+        
+        #red{
+            background-color:indianred;
+            }
+         #blue{
+             background-color: cornflowerblue;
+    
+         } 
+    </style>
+    
+    <body> 
+                        
+        <div id="red">this is a red div</div>
+        
+        <div id="blue"> this is a blue div </div>
+         
+        
+        <script>
+        //always put javascripting things under your html coding things as the computer reads from top to bottom so needs to be under the coded content to be able to read and apply to it. Javascript it also case sensitive and has no dashes. 
+            var reddiv = document.getElementById('red');
+            
+            reddiv.style.backgroundColor = "green";
+        </script>
+    
+    </body>
+    
+</html>
