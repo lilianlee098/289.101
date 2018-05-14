@@ -4,7 +4,7 @@
 
     <head> 
         <meta charest='utf-8'>
-        <title> dom scripting</title>
+        <title> Event Listening</title>
     </head>
     
      <style>
@@ -25,7 +25,19 @@
         </div>
         
         <script>
-            document.getElementById("hello_btn").addEventListener('click', function(){alert('hello');})
+            var x=10;
+            
+            document.getElementById("hello_btn").addEventListener('click', function(){
+//                alert('hello');
+                document.getElementById("hello_btn").style.color="yellow";
+                document.getElementById("hello_btn").style.backgroundColor = "orange";
+                document.getElementById("hello_btn").style.border = "black solid 1px";
+                
+                console.log ('color changes are applied');
+                
+                console.log(x);
+                x --;
+            })
             
         </script>
     
