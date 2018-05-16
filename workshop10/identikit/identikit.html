@@ -138,14 +138,21 @@
       
       //big eyes event listener
        document.getElementById('big_eyes_btn').addEventListener('click',function(){
-          eye_left_y += 5;
+          eye_left_y += 1;
           document.getElementById('eye_left').style.width = eye_left_y + 'px';
-          eye_right_y += 5;
+          eye_right_y += 1;
           document.getElementById('eye_right').style.width = eye_right_y + 'px';
       })
       
       
       //small eyes event listener
+      
+      document.getElementById('big_eyes_btn').addEventListener('click',function(){
+          eye_left_y -= 1;
+          document.getElementById('eye_left').style.width = eye_left_y + 'px';
+          eye_right_y -= 1;
+          document.getElementById('eye_right').style.width = eye_right_y + 'px';
+      })
       
       
       //no right eye
