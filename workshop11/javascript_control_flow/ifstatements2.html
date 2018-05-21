@@ -9,16 +9,36 @@
     
     <body>
         
-        if statements
+<!--        if statements-->
         
         <script>
             
-            if(1==0){
-                alert('correct')
-            }
+//            if(1==0){
+//                alert('correct')
+//            }
+//            
+//            else{
+//                alert('incorrect')
+//            }
             
-            else{
-                alert('incorrect')
+            var mark = 50;
+            
+            document.write(mark + '<br/>');
+            
+            if(mark > 80){
+                document.write('A');
+            }
+            else if (mark > 70){
+                document.write('B');
+            }
+            else if (mark > 60){
+                document.write('C');
+            }
+            else if (mark >= 50){
+                document.write('D');
+            }
+            else if (mark  < 50){
+                document.write('Fail');
             }
      
         
